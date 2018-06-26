@@ -93,3 +93,5 @@ ENV/
 # Rope project settings
 .ropeproject
 .idea/workspace.xml
+.idea/enhance.iml
+.idea/misc.xml

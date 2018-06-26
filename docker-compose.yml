@@ -1,0 +1,10 @@
+version: '3'
+services:
+  enhance:
+    build:
+      context: .
+      dockerfile: docker-cpu.df
+    command: tail -f /dev/null
+    volumes:
+      - ~/temp/enhance:/ne/input
+
