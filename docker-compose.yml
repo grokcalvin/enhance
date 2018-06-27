@@ -4,7 +4,7 @@ services:
     build:
       context: .
       dockerfile: docker-cpu.df
-    command: tail -f /dev/null
+#    command: /bin/bash
     volumes:
-      - ~/temp/enhance:/ne/input
+      - ./input:/ne/input
 
